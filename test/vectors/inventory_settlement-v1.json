@@ -1,0 +1,168 @@
+{
+  "cases": [
+    {
+      "expected": {
+        "average_exposure_wad": "50000000000000000",
+        "final_quote": "61505938",
+        "inventory_after": "9000000000000000000",
+        "inventory_factor_wad": "1010000000000000000",
+        "reservation_quote": "60896968"
+      },
+      "id": "first_buy_one",
+      "inputs": {
+        "current_inventory": "10000000000000000000",
+        "fair_value_quote": "60294027",
+        "gamma_wad": "200000000000000000",
+        "half_spread_wad": "10000000000000000",
+        "initial_inventory": "10000000000000000000",
+        "quantity": "1000000000000000000"
+      },
+      "side": "buy"
+    },
+    {
+      "expected": {
+        "average_exposure_wad": "150000000000000000",
+        "final_quote": "62723877",
+        "inventory_after": "8000000000000000000",
+        "inventory_factor_wad": "1030000000000000000",
+        "reservation_quote": "62102848"
+      },
+      "id": "second_buy_one",
+      "inputs": {
+        "current_inventory": "9000000000000000000",
+        "fair_value_quote": "60294027",
+        "gamma_wad": "200000000000000000",
+        "half_spread_wad": "10000000000000000",
+        "initial_inventory": "10000000000000000000",
+        "quantity": "1000000000000000000"
+      },
+      "side": "buy"
+    },
+    {
+      "expected": {
+        "average_exposure_wad": "550000000000000000",
+        "final_quote": "67595634",
+        "inventory_after": "4000000000000000000",
+        "inventory_factor_wad": "1110000000000000000",
+        "reservation_quote": "66926370"
+      },
+      "id": "half_sold_buy_one",
+      "inputs": {
+        "current_inventory": "5000000000000000000",
+        "fair_value_quote": "60294027",
+        "gamma_wad": "200000000000000000",
+        "half_spread_wad": "10000000000000000",
+        "initial_inventory": "10000000000000000000",
+        "quantity": "1000000000000000000"
+      },
+      "side": "buy"
+    },
+    {
+      "expected": {
+        "average_exposure_wad": "450000000000000000",
+        "final_quote": "65063284",
+        "inventory_after": "6000000000000000000",
+        "inventory_factor_wad": "1090000000000000000",
+        "reservation_quote": "65720489"
+      },
+      "id": "half_sold_sell_one",
+      "inputs": {
+        "current_inventory": "5000000000000000000",
+        "fair_value_quote": "60294027",
+        "gamma_wad": "200000000000000000",
+        "half_spread_wad": "10000000000000000",
+        "initial_inventory": "10000000000000000000",
+        "quantity": "1000000000000000000"
+      },
+      "side": "sell"
+    },
+    {
+      "expected": {
+        "average_exposure_wad": "250000000000000000",
+        "final_quote": "319709079",
+        "inventory_after": "5000000000000000000",
+        "inventory_factor_wad": "1050000000000000000",
+        "reservation_quote": "316543642"
+      },
+      "id": "first_buy_five",
+      "inputs": {
+        "current_inventory": "10000000000000000000",
+        "fair_value_quote": "301470135",
+        "gamma_wad": "200000000000000000",
+        "half_spread_wad": "10000000000000000",
+        "initial_inventory": "10000000000000000000",
+        "quantity": "5000000000000000000"
+      },
+      "side": "buy"
+    },
+    {
+      "expected": {
+        "average_exposure_wad": "12500000000000000",
+        "final_quote": "15262303",
+        "inventory_after": "9750000000000000000",
+        "inventory_factor_wad": "1002500000000000000",
+        "reservation_quote": "15111191"
+      },
+      "id": "fractional_buy_quarter",
+      "inputs": {
+        "current_inventory": "10000000000000000000",
+        "fair_value_quote": "15073507",
+        "gamma_wad": "200000000000000000",
+        "half_spread_wad": "10000000000000000",
+        "initial_inventory": "10000000000000000000",
+        "quantity": "250000000000000000"
+      },
+      "side": "buy"
+    },
+    {
+      "expected": {
+        "average_exposure_wad": "0",
+        "final_quote": "1",
+        "inventory_after": "9999999999999999999",
+        "inventory_factor_wad": "1000000000000000000",
+        "reservation_quote": "1"
+      },
+      "id": "zero_gamma_and_spread",
+      "inputs": {
+        "current_inventory": "10000000000000000000",
+        "fair_value_quote": "1",
+        "gamma_wad": "0",
+        "half_spread_wad": "0",
+        "initial_inventory": "10000000000000000000",
+        "quantity": "1"
+      },
+      "side": "buy"
+    },
+    {
+      "expected": {
+        "average_exposure_wad": "950000000000000000",
+        "final_quote": "146966692",
+        "inventory_after": "0",
+        "inventory_factor_wad": "1950000000000000000",
+        "reservation_quote": "117573353"
+      },
+      "id": "maximum_gamma_and_spread",
+      "inputs": {
+        "current_inventory": "1000000000000000000",
+        "fair_value_quote": "60294027",
+        "gamma_wad": "1000000000000000000",
+        "half_spread_wad": "250000000000000000",
+        "initial_inventory": "10000000000000000000",
+        "quantity": "1000000000000000000"
+      },
+      "side": "buy"
+    }
+  ],
+  "numeric_backend": "exact unsigned integer arithmetic",
+  "rounding": {
+    "buy": "ceiling at inventory and spread stages",
+    "sell": "floor at inventory and spread stages"
+  },
+  "schema": "aquavol.inventory-settlement-vectors",
+  "schema_version": 1,
+  "units": {
+    "call": "18-decimal token-native units",
+    "factor": "WAD (1e18)",
+    "quote": "6-decimal USDC-native units"
+  }
+}

@@ -1,0 +1,519 @@
+{
+  "call_cases": [
+    {
+      "expected": {
+        "call_value": "60.294026671319",
+        "call_value_wad": "60294026671319000000",
+        "intermediates": {
+          "cdf_d1": "0.296526347441",
+          "cdf_d2": "0.266626523401",
+          "d1": "-0.534417527725",
+          "d2": "-0.623047897609"
+        },
+        "intrinsic_value": "0.000000000000"
+      },
+      "id": "canonical_otm_7d_64pct",
+      "inputs": {
+        "dividend_yield": "0.000000000000",
+        "risk_free_rate": "0.000000000000",
+        "spot": "3800.000000000000",
+        "strike": "4000.000000000000",
+        "time_seconds": 604800,
+        "time_years": "0.019178082191780823",
+        "volatility": "0.640000000000"
+      },
+      "normalized": {
+        "spot_wad": "3800000000000000000000",
+        "strike_wad": "4000000000000000000000",
+        "time_wad": "19178082191780823",
+        "volatility_wad": "640000000000000000"
+      }
+    },
+    {
+      "expected": {
+        "call_value": "141.387329071208",
+        "call_value_wad": "141387329071208000000",
+        "intermediates": {
+          "cdf_d1": "0.517673416134",
+          "cdf_d2": "0.482326583866",
+          "d1": "0.044315184942",
+          "d2": "-0.044315184942"
+        },
+        "intrinsic_value": "0.000000000000"
+      },
+      "id": "atm_7d_64pct",
+      "inputs": {
+        "dividend_yield": "0.000000000000",
+        "risk_free_rate": "0.000000000000",
+        "spot": "4000.000000000000",
+        "strike": "4000.000000000000",
+        "time_seconds": 604800,
+        "time_years": "0.019178082191780823",
+        "volatility": "0.640000000000"
+      },
+      "normalized": {
+        "spot_wad": "4000000000000000000000",
+        "strike_wad": "4000000000000000000000",
+        "time_wad": "19178082191780823",
+        "volatility_wad": "640000000000000000"
+      }
+    },
+    {
+      "expected": {
+        "call_value": "516.082529731412",
+        "call_value_wad": "516082529731412000000",
+        "intermediates": {
+          "cdf_d1": "0.915161016685",
+          "cdf_d2": "0.900535511337",
+          "d1": "1.373239297644",
+          "d2": "1.284608927760"
+        },
+        "intrinsic_value": "500.000000000000"
+      },
+      "id": "itm_7d_64pct",
+      "inputs": {
+        "dividend_yield": "0.000000000000",
+        "risk_free_rate": "0.000000000000",
+        "spot": "4500.000000000000",
+        "strike": "4000.000000000000",
+        "time_seconds": 604800,
+        "time_years": "0.019178082191780823",
+        "volatility": "0.640000000000"
+      },
+      "normalized": {
+        "spot_wad": "4500000000000000000000",
+        "strike_wad": "4000000000000000000000",
+        "time_wad": "19178082191780823",
+        "volatility_wad": "640000000000000000"
+      }
+    },
+    {
+      "expected": {
+        "call_value": "0.047891650330",
+        "call_value_wad": "47891650330000000",
+        "intermediates": {
+          "cdf_d1": "0.000683456021",
+          "cdf_d2": "0.000500619103",
+          "d1": "-3.201548200585",
+          "d2": "-3.290178570469"
+        },
+        "intrinsic_value": "0.000000000000"
+      },
+      "id": "deep_otm_7d_64pct",
+      "inputs": {
+        "dividend_yield": "0.000000000000",
+        "risk_free_rate": "0.000000000000",
+        "spot": "3000.000000000000",
+        "strike": "4000.000000000000",
+        "time_seconds": 604800,
+        "time_years": "0.019178082191780823",
+        "volatility": "0.640000000000"
+      },
+      "normalized": {
+        "spot_wad": "3000000000000000000000",
+        "strike_wad": "4000000000000000000000",
+        "time_wad": "19178082191780823",
+        "volatility_wad": "640000000000000000"
+      }
+    },
+    {
+      "expected": {
+        "call_value": "10.911818458070",
+        "call_value_wad": "10911818458070000000",
+        "intermediates": {
+          "cdf_d1": "0.501363977307",
+          "cdf_d2": "0.498636022693",
+          "d1": "0.003418990745",
+          "d2": "-0.003418990745"
+        },
+        "intrinsic_value": "0.000000000000"
+      },
+      "id": "atm_1h_64pct",
+      "inputs": {
+        "dividend_yield": "0.000000000000",
+        "risk_free_rate": "0.000000000000",
+        "spot": "4000.000000000000",
+        "strike": "4000.000000000000",
+        "time_seconds": 3600,
+        "time_years": "0.000114155251141553",
+        "volatility": "0.640000000000"
+      },
+      "normalized": {
+        "spot_wad": "4000000000000000000000",
+        "strike_wad": "4000000000000000000000",
+        "time_wad": "114155251141553",
+        "volatility_wad": "640000000000000000"
+      }
+    },
+    {
+      "expected": {
+        "call_value": "3.563228856428",
+        "call_value_wad": "3563228856428000000",
+        "intermediates": {
+          "cdf_d1": "0.064957993493",
+          "cdf_d2": "0.060819286604",
+          "d1": "-1.514433267771",
+          "d2": "-1.547932398817"
+        },
+        "intrinsic_value": "0.000000000000"
+      },
+      "id": "canonical_1d_64pct",
+      "inputs": {
+        "dividend_yield": "0.000000000000",
+        "risk_free_rate": "0.000000000000",
+        "spot": "3800.000000000000",
+        "strike": "4000.000000000000",
+        "time_seconds": 86400,
+        "time_years": "0.002739726027397260",
+        "volatility": "0.640000000000"
+      },
+      "normalized": {
+        "spot_wad": "3800000000000000000000",
+        "strike_wad": "4000000000000000000000",
+        "time_wad": "2739726027397260",
+        "volatility_wad": "640000000000000000"
+      }
+    },
+    {
+      "expected": {
+        "call_value": "196.108964251416",
+        "call_value_wad": "196108964251416000000",
+        "intermediates": {
+          "cdf_d1": "0.425511500589",
+          "cdf_d2": "0.355208684497",
+          "d1": "-0.187813310500",
+          "d2": "-0.371295607806"
+        },
+        "intrinsic_value": "0.000000000000"
+      },
+      "id": "canonical_30d_64pct",
+      "inputs": {
+        "dividend_yield": "0.000000000000",
+        "risk_free_rate": "0.000000000000",
+        "spot": "3800.000000000000",
+        "strike": "4000.000000000000",
+        "time_seconds": 2592000,
+        "time_years": "0.082191780821917804",
+        "volatility": "0.640000000000"
+      },
+      "normalized": {
+        "spot_wad": "3800000000000000000000",
+        "strike_wad": "4000000000000000000000",
+        "time_wad": "82191780821917804",
+        "volatility_wad": "640000000000000000"
+      }
+    },
+    {
+      "expected": {
+        "call_value": "0.001377030145",
+        "call_value_wad": "1377030145000000",
+        "intermediates": {
+          "cdf_d1": "0.000109096157",
+          "cdf_d2": "0.000103297091",
+          "d1": "-3.696965113420",
+          "d2": "-3.710813608714"
+        },
+        "intrinsic_value": "0.000000000000"
+      },
+      "id": "canonical_7d_low_vol",
+      "inputs": {
+        "dividend_yield": "0.000000000000",
+        "risk_free_rate": "0.000000000000",
+        "spot": "3800.000000000000",
+        "strike": "4000.000000000000",
+        "time_seconds": 604800,
+        "time_years": "0.019178082191780823",
+        "volatility": "0.100000000000"
+      },
+      "normalized": {
+        "spot_wad": "3800000000000000000000",
+        "strike_wad": "4000000000000000000000",
+        "time_wad": "19178082191780823",
+        "volatility_wad": "100000000000000000"
+      }
+    },
+    {
+      "expected": {
+        "call_value": "336.853513697654",
+        "call_value_wad": "336853513697654000000",
+        "intermediates": {
+          "cdf_d1": "0.481372373332",
+          "cdf_d2": "0.373090376241",
+          "d1": "-0.046709515110",
+          "d2": "-0.323679420997"
+        },
+        "intrinsic_value": "0.000000000000"
+      },
+      "id": "canonical_7d_high_vol",
+      "inputs": {
+        "dividend_yield": "0.000000000000",
+        "risk_free_rate": "0.000000000000",
+        "spot": "3800.000000000000",
+        "strike": "4000.000000000000",
+        "time_seconds": 604800,
+        "time_years": "0.019178082191780823",
+        "volatility": "2.000000000000"
+      },
+      "normalized": {
+        "spot_wad": "3800000000000000000000",
+        "strike_wad": "4000000000000000000000",
+        "time_wad": "19178082191780823",
+        "volatility_wad": "2000000000000000000"
+      }
+    },
+    {
+      "expected": {
+        "call_value": "500.000000000000",
+        "call_value_wad": "500000000000000000000",
+        "intermediates": null,
+        "intrinsic_value": "500.000000000000"
+      },
+      "id": "expiry_itm",
+      "inputs": {
+        "dividend_yield": "0.000000000000",
+        "risk_free_rate": "0.000000000000",
+        "spot": "4500.000000000000",
+        "strike": "4000.000000000000",
+        "time_seconds": 0,
+        "time_years": "0.000000000000000000",
+        "volatility": "0.640000000000"
+      },
+      "normalized": {
+        "spot_wad": "4500000000000000000000",
+        "strike_wad": "4000000000000000000000",
+        "time_wad": "0",
+        "volatility_wad": "640000000000000000"
+      }
+    },
+    {
+      "expected": {
+        "call_value": "0.000000000000",
+        "call_value_wad": "0",
+        "intermediates": null,
+        "intrinsic_value": "0.000000000000"
+      },
+      "id": "expiry_otm",
+      "inputs": {
+        "dividend_yield": "0.000000000000",
+        "risk_free_rate": "0.000000000000",
+        "spot": "3800.000000000000",
+        "strike": "4000.000000000000",
+        "time_seconds": 0,
+        "time_years": "0.000000000000000000",
+        "volatility": "0.640000000000"
+      },
+      "normalized": {
+        "spot_wad": "3800000000000000000000",
+        "strike_wad": "4000000000000000000000",
+        "time_wad": "0",
+        "volatility_wad": "640000000000000000"
+      }
+    },
+    {
+      "expected": {
+        "call_value": "500.000000000000",
+        "call_value_wad": "500000000000000000000",
+        "intermediates": null,
+        "intrinsic_value": "500.000000000000"
+      },
+      "id": "zero_vol_itm",
+      "inputs": {
+        "dividend_yield": "0.000000000000",
+        "risk_free_rate": "0.000000000000",
+        "spot": "4500.000000000000",
+        "strike": "4000.000000000000",
+        "time_seconds": 604800,
+        "time_years": "0.019178082191780823",
+        "volatility": "0.000000000000"
+      },
+      "normalized": {
+        "spot_wad": "4500000000000000000000",
+        "strike_wad": "4000000000000000000000",
+        "time_wad": "19178082191780823",
+        "volatility_wad": "0"
+      }
+    },
+    {
+      "expected": {
+        "call_value": "0.000000000000",
+        "call_value_wad": "0",
+        "intermediates": null,
+        "intrinsic_value": "0.000000000000"
+      },
+      "id": "zero_vol_otm",
+      "inputs": {
+        "dividend_yield": "0.000000000000",
+        "risk_free_rate": "0.000000000000",
+        "spot": "3800.000000000000",
+        "strike": "4000.000000000000",
+        "time_seconds": 604800,
+        "time_years": "0.019178082191780823",
+        "volatility": "0.000000000000"
+      },
+      "normalized": {
+        "spot_wad": "3800000000000000000000",
+        "strike_wad": "4000000000000000000000",
+        "time_wad": "19178082191780823",
+        "volatility_wad": "0"
+      }
+    }
+  ],
+  "cdf_cases": [
+    {
+      "expected": "0.000000000000001",
+      "x": "-8.000000000000"
+    },
+    {
+      "expected": "0.000031671241833",
+      "x": "-4.000000000000"
+    },
+    {
+      "expected": "0.158655253931457",
+      "x": "-1.000000000000"
+    },
+    {
+      "expected": "0.500000000000000",
+      "x": "0.000000000000"
+    },
+    {
+      "expected": "0.841344746068543",
+      "x": "1.000000000000"
+    },
+    {
+      "expected": "0.999968328758167",
+      "x": "4.000000000000"
+    },
+    {
+      "expected": "0.999999999999999",
+      "x": "8.000000000000"
+    }
+  ],
+  "inventory_cases": [
+    {
+      "expected": {
+        "average_exposure": "0.050000000000",
+        "exposure_after": "0.100000000000",
+        "exposure_before": "0.000000000000",
+        "inventory_after": "9.000000000000",
+        "reservation_price": "60.896966938032",
+        "total_quote_amount": "61.505936607413",
+        "total_quote_usdc_6": "61505937",
+        "unit_premium": "61.505936607413"
+      },
+      "id": "first_buy_one",
+      "inputs": {
+        "current_inventory": "10.000000000000",
+        "fair_value": "60.294026671319",
+        "gamma": "0.200000000000",
+        "half_spread": "0.010000000000",
+        "initial_inventory": "10.000000000000",
+        "quantity": "1.000000000000"
+      },
+      "side": "buy"
+    },
+    {
+      "expected": {
+        "average_exposure": "0.550000000000",
+        "exposure_after": "0.600000000000",
+        "exposure_before": "0.500000000000",
+        "inventory_after": "4.000000000000",
+        "reservation_price": "66.926369605164",
+        "total_quote_amount": "67.595633301216",
+        "total_quote_usdc_6": "67595634",
+        "unit_premium": "67.595633301216"
+      },
+      "id": "half_sold_buy_one",
+      "inputs": {
+        "current_inventory": "5.000000000000",
+        "fair_value": "60.294026671319",
+        "gamma": "0.200000000000",
+        "half_spread": "0.010000000000",
+        "initial_inventory": "10.000000000000",
+        "quantity": "1.000000000000"
+      },
+      "side": "buy"
+    },
+    {
+      "expected": {
+        "average_exposure": "0.450000000000",
+        "exposure_after": "0.400000000000",
+        "exposure_before": "0.500000000000",
+        "inventory_after": "6.000000000000",
+        "reservation_price": "65.720489071738",
+        "total_quote_amount": "65.063284181020",
+        "total_quote_usdc_6": "65063284",
+        "unit_premium": "65.063284181020"
+      },
+      "id": "half_sold_sell_one",
+      "inputs": {
+        "current_inventory": "5.000000000000",
+        "fair_value": "60.294026671319",
+        "gamma": "0.200000000000",
+        "half_spread": "0.010000000000",
+        "initial_inventory": "10.000000000000",
+        "quantity": "1.000000000000"
+      },
+      "side": "sell"
+    },
+    {
+      "expected": {
+        "average_exposure": "0.250000000000",
+        "exposure_after": "0.500000000000",
+        "exposure_before": "0.000000000000",
+        "inventory_after": "5.000000000000",
+        "reservation_price": "63.308728004885",
+        "total_quote_amount": "319.709076424669",
+        "total_quote_usdc_6": "319709077",
+        "unit_premium": "63.941815284934"
+      },
+      "id": "first_buy_five",
+      "inputs": {
+        "current_inventory": "10.000000000000",
+        "fair_value": "60.294026671319",
+        "gamma": "0.200000000000",
+        "half_spread": "0.010000000000",
+        "initial_inventory": "10.000000000000",
+        "quantity": "5.000000000000"
+      },
+      "side": "buy"
+    },
+    {
+      "expected": {
+        "average_exposure": "0.012500000000",
+        "exposure_after": "0.025000000000",
+        "exposure_before": "0.000000000000",
+        "inventory_after": "9.750000000000",
+        "reservation_price": "60.444761737997",
+        "total_quote_amount": "15.262302338844",
+        "total_quote_usdc_6": "15262303",
+        "unit_premium": "61.049209355377"
+      },
+      "id": "fractional_buy_quarter",
+      "inputs": {
+        "current_inventory": "10.000000000000",
+        "fair_value": "60.294026671319",
+        "gamma": "0.200000000000",
+        "half_spread": "0.010000000000",
+        "initial_inventory": "10.000000000000",
+        "quantity": "0.250000000000"
+      },
+      "side": "buy"
+    }
+  ],
+  "model": {
+    "dividend_yield": "0",
+    "normal_cdf": "0.5 * (1 + erf(x / sqrt(2)))",
+    "numeric_backend": "Python standard-library binary64",
+    "option_type": "european_call",
+    "risk_free_rate": "0",
+    "year_seconds": 31536000
+  },
+  "schema": "aquavol.black-scholes-vectors",
+  "schema_version": 1,
+  "tolerances": {
+    "settlement_rounding": "maker_favorable_token_native_units",
+    "solidity_call_absolute_quote": "0.10",
+    "solidity_call_relative_bps": "10",
+    "solidity_cdf_max_absolute": "0.000002"
+  }
+}
