@@ -65,7 +65,7 @@ Full addresses and transaction evidence are in
 ## Manual submission checklist
 
 - [ ] Build and deploy the frontend.
-- [ ] Add the live frontend URL to the root README and ETHGlobal submission.
+- [ ] Add the live frontend URL to the root README and Hackerhouse submission.
 - [x] Complete the Uniswap Developer Feedback Form with the public
       `FEEDBACK.md` link.
 - [ ] Record and upload the demo video.

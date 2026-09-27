@@ -9,7 +9,7 @@ specification drafting, implementation support, testing, and documentation.
 
 As of 2026-09-26, AI assistance has been used to:
 
-- review the ETHGlobal Tokyo 2026 and Aqua app requirements;
+- review the Aqua app requirements;
 - review the official Aqua, SwapVM, and Aqua SDK documentation;
 - identify compliance, deployment, testing, and mathematical-specification
   concerns;

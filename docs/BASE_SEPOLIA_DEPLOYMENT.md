@@ -149,4 +149,4 @@ must not be represented as complete.
 
 ## Remaining evidence
 
-- add the final frontend and ETHGlobal submission links when available.
+- add the final frontend and Hackerhouse submission links when available.
